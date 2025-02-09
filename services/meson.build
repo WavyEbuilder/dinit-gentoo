@@ -59,6 +59,14 @@ services = [
     'single',
     'system',
     'time-sync.target',
+    'tty1',
+    'tty2',
+    'tty3',
+    'tty4',
+    'tty5',
+    'tty6',
+    'tty7',
+    'tty8',
 ]
 
 foreach srv: services
