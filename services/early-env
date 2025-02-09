@@ -1,0 +1,5 @@
+# Set up dinit running environment
+
+type     = scripted
+command  = @SCRIPT_PATH@/env.sh
+options  = pass-cs-fd
