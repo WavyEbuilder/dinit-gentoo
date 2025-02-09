@@ -15,9 +15,9 @@ project(
 pfx = get_option('prefix')
 lexecdir = get_option('libexecdir')
 sbindir = get_option('sbindir')
-dlibdir = get_option('libdir') / 'dinit'
-tmpfdir = get_option('libdir') / 'tmpfiles.d'
-srvdir = get_option('libdir') / 'dinit.d'
+dlibdir = '/lib/dinit'
+tmpfdir = '/usr/lib/tmpfiles.d'
+srvdir = '/lib/dinit.d'
 earlydir = srvdir / 'early'
 
 cpp = meson.get_compiler('cpp')
