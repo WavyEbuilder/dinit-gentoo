@@ -22,6 +22,7 @@ Currently the documentation for the suite is lacking, which is also to be done.
 * `sulogin` (any implementation, e.g. `shadow`, `util-linux`, `busybox`)
 * [sd-tools](https://github.com/chimera-linux/sd-tools) (particularly `sd-tmpfiles`)
 * [libkmod](https://github.com/kmod-project/kmod)
+* If using SELinux, `restorecon`
 
 ### Distribution-provided files
 
